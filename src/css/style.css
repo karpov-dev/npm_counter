@@ -1,3 +1,7 @@
+a, .cmp {
+    border-radius: 5px;
+}
+
 a {
   background-color: #4caf50;
   border: none;
@@ -7,7 +11,7 @@ a {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 5px;
+  user-select: none;
 }
 
 a:hover {
@@ -16,4 +20,15 @@ a:hover {
 
 a + a {
     margin-left: 10px;
+}
+
+#counterValue {
+    font-size: 24px;
+    text-align: center;
+}
+
+.cmp {
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
 }
